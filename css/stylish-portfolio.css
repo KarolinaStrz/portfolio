@@ -73,7 +73,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -234,7 +234,7 @@ h6 {
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); }
       .portfolio-item:hover .caption {
-        background-color: rgba(29, 128, 159, 0.9);
+        background-color: rgba(0, 0, 0, 0.6);;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }
 
@@ -260,12 +260,12 @@ a {
     color: #155d74; }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important; }
+  background-color: #dffafa !important;
+  border-color: #dffafa !important;
+  color: grey !important; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #155d74 !important;
-    border-color: #155d74 !important; }
+    background-color: #dfeefa !important;
+    border-color: #dfeefa !important; }
 
 .btn-secondary {
   background-color: #ecb807 !important;
@@ -290,3 +290,7 @@ a {
 
 .text-secondary {
   color: #ecb807 !important; }
+.no-gutters>.col, .no-gutters>[class*=col-] {
+  padding-bottom: 10PX;
+  padding-right: 10px;
+}
